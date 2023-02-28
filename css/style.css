@@ -1,0 +1,1083 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======================================
+        All Common Css Start
+=========================================*/
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+}
+
+/* ======================================
+        All Common Css End
+=========================================*/
+
+/* ======================================
+        nav Part Start
+=========================================*/
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0px;
+  z-index: 1;
+}
+nav .logo {
+  width: 20%;
+}
+nav .nav-item {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-item ul {
+  display: flex;
+  column-gap: 40px;
+}
+nav .nav-item ul li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #eff4fa;
+  transition: 0.5s;
+  cursor: pointer;
+}
+nav .nav-item ul li:hover {
+  color: #d6a033;
+}
+
+nav .btn {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .btn a {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #d6a033;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+nav .btn a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+/* ======================================
+        nav Part End
+=========================================*/
+
+/* ======================================
+        banner Part Start
+=========================================*/
+
+.banner {
+  position: relative;
+  background: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 222px;
+  padding-bottom: 200px;
+}
+.banner .left {
+  width: 70%;
+}
+
+.banner .left h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 900;
+  color: #f7d38a;
+}
+
+.banner .left h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  color: #f5f2eb;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.banner .left p {
+  font-family: "Paprika", cursive;
+  font-size: 22px;
+  font-weight: 400;
+  color: #bebbb4;
+  width: 541px;
+  line-height: 36px;
+  margin-bottom: 56px;
+}
+
+.banner .left a {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #d6a033;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.banner .left a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.banner .right {
+  width: 30%;
+}
+
+.banner .right img {
+  transform: translate(25%, 25%);
+  animation: one 2s infinite linear alternate;
+}
+@keyframes one {
+  0% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: -100px;
+  }
+}
+/* ======================================
+        banner Part End
+=========================================*/
+
+/* ======================================
+        sarvice Part Start
+=========================================*/
+
+.service .box {
+  justify-content: space-around;
+}
+.service {
+  margin: 100px 0px;
+}
+
+.service .one {
+  width: 18%;
+}
+
+.service .one img {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.service .one img:last-child {
+  margin-bottom: 0;
+}
+
+.service .two {
+  width: 47%;
+}
+
+.service .two img {
+  display: block;
+  width: 100%;
+}
+.service .three {
+  width: 30%;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+
+.service .three h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+  width: 431px;
+}
+.service .three p {
+  font-family: "Paprika", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #524d43;
+  width: 469px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.service .three a {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #d6a033;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.service .three a:hover {
+  background: transparent;
+  border: 1px solid #d6a033;
+  color: #363024;
+}
+
+/* ======================================
+        sarvice Part End
+=========================================*/
+
+/* ======================================
+        service_two Part Start
+=========================================*/
+.service_two {
+  margin-bottom: 100px;
+}
+.service_two .tittle {
+  text-align: center;
+}
+.service_two .tittle h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+  margin-bottom: 20px;
+}
+
+.service_two .tittle p {
+  font-family: "Paprika", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #524d43;
+  width: 645px;
+  line-height: 32px;
+  margin: 0 auto;
+}
+
+.service_two .box {
+  margin-top: 32px;
+  flex-wrap: wrap;
+  column-gap: 114px;
+  row-gap: 12px;
+}
+.service_two .box .item {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.service_two .box .item:first-child {
+  margin-left: 0;
+}
+
+.service_two .box .item .one {
+  width: 70%;
+}
+.service_two .box .item .one h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #363024;
+}
+.service_two .box .item .one p {
+  font-family: "Paprika", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #524d43;
+  width: 325px;
+  line-height: 32px;
+  margin-top: 16px;
+  text-transform: capitalize;
+}
+
+.service_two .box .item .two {
+  width: 20%;
+  text-align: right;
+}
+
+.service_two .box .item .two p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: #d6a033;
+}
+
+/* ======================================
+        service_two Part End
+=========================================*/
+
+/* ======================================
+        choose Part Start
+=========================================*/
+
+.choose {
+  margin: 100px 0px;
+}
+.choose .left {
+  width: 50%;
+}
+.choose .left h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+  margin-bottom: 36px;
+}
+
+.choose .left .item {
+  display: flex;
+}
+.choose .left .item .img {
+  width: 20%;
+}
+.choose .left .item .text {
+  width: 70%;
+}
+.choose .left .item {
+  margin-bottom: 30px;
+}
+
+.choose .left .item .text h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #363024;
+}
+.choose .left .item .text p {
+  font-family: "Paprika", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #524d43;
+  width: 361px;
+  margin-top: 16px;
+}
+
+.choose .right {
+  width: 50%;
+  position: relative;
+}
+.choose .right .one {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  z-index: 5;
+  animation: three 2s infinite linear alternate;
+}
+@keyframes three {
+  0% {
+    top: 250px;
+    left: 0;
+  }
+  100% {
+    top: 150px;
+    left: 50%;
+  }
+}
+
+.choose .right .two {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 2;
+  animation: two 2s infinite linear alternate;
+}
+@keyframes two {
+  0% {
+    top: 40px;
+    right: 40px;
+  }
+  100% {
+    top: 0px;
+    right: 0px;
+  }
+}
+
+.choose .right .three {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* ======================================
+        choose Part end
+=========================================*/
+
+/* ======================================
+        work Part Start
+=========================================*/
+.work {
+  padding: 120px 0px;
+  background: #181d21;
+}
+.work .left {
+  width: 40%;
+}
+.work .left {
+  display: flex;
+  align-items: center;
+}
+
+.work .left h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #fbfbfa;
+}
+
+.work .right {
+  width: 60%;
+}
+.work .right {
+  display: flex;
+  align-items: center;
+}
+
+.work .right ul {
+  display: flex;
+  column-gap: 38px;
+}
+.work .right ul li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fbfbfa;
+  transition: 0.5s;
+}
+
+.work .right ul li:hover {
+  color: #d6a033;
+}
+.work {
+  position: relative;
+}
+
+.work .item {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(65%);
+  position: relative;
+  animation: ten 3s alternate infinite linear;
+}
+@keyframes ten {
+  0% {
+    transform: translateY(65%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+.work .item img {
+  width: 32%;
+}
+
+/* ======================================
+        work Part End
+=========================================*/
+
+/* ======================================
+        project Part Start
+=========================================*/
+.project {
+  margin: 200px 0px 100px 0px;
+}
+
+.project .tittle {
+  display: flex;
+  justify-content: space-between;
+}
+.project .tittle .left {
+  width: 30%;
+}
+.project .tittle .left h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+}
+
+.project .tittle .right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.project .tittle .right .one {
+  height: 50px;
+  width: 50px;
+  background: #d6a033;
+  margin-left: 10px;
+  position: relative;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.project .tittle .right .one:hover {
+  background: none;
+  border: 1px solid #d6a033;
+}
+
+.project .tittle .right .one i {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ffff;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+.project .tittle .right .one:hover i {
+  color: #181d21;
+}
+
+.project_part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.project_part .one {
+  width: 23%;
+  overflow: hidden;
+}
+
+.project_part .one img {
+  width: 100%;
+  display: block;
+  border: 1px solid transparent;
+}
+
+.project_part .one h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #363024;
+}
+.project .one .three {
+  padding: 15px;
+  box-sizing: border-box;
+  background: #fdf4fd;
+  transition: 0.5s;
+}
+
+.project .one .three .two {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.project .one .three .two h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #d6a033;
+}
+
+.project .one .three .two p {
+  font-family: "Paprika", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  color: #363024;
+  margin-top: 8px;
+}
+.project .one:hover .three .two h5 {
+  color: #fff;
+}
+.project .one:hover .three .two p {
+  color: #fff;
+}
+
+.project .one .three .four {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  top: 100%;
+  left: 0;
+  transition: 0.5s;
+}
+.project .one .three .four h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #d6a033;
+  transition: 0.5s;
+}
+.project .one:hover .three .four h6 {
+  color: #fff;
+}
+.project .one:hover .three .four i {
+  color: #fff;
+}
+
+.project .one .three .four i {
+  font-size: 16px;
+  color: #363024;
+  margin-top: 8px;
+}
+
+.project_part .one:hover .three .four {
+  top: 0;
+}
+
+.project_part .one:hover .three {
+  background: #d6a033;
+}
+
+.project_part .one:hover h4 {
+  color: #fff;
+}
+.project_part .one:hover img {
+  border: 1px solid #d6a033;
+}
+/* ======================================
+        project Part End
+=========================================*/
+
+/* ======================================
+        meet Part Start
+=========================================*/
+.meet {
+  margin-bottom: 100px;
+}
+.meet .box {
+  justify-content: space-between;
+}
+
+.meet .left {
+  width: 50%;
+  position: relative;
+}
+
+.meet .left .one img {
+  width: 80%;
+  animation: four 2s alternate infinite linear;
+  position: relative;
+}
+@keyframes four {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: -47px;
+    left: -73px;
+  }
+}
+
+.meet .left .two img {
+  width: 80%;
+}
+
+.meet .left .one {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.meet .left .two {
+  position: absolute;
+  top: -40px;
+  right: 40px;
+  z-index: -1;
+}
+
+.meet .right {
+  width: 40%;
+}
+.meet .right h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+}
+.meet .right p {
+  font-family: "Paprika", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: #524d43;
+  line-height: 32px;
+  width: 469px;
+}
+
+.meet .right .item {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.meet .right .pic_one {
+  position: absolute;
+  top: 0;
+  left: -46%;
+  transform: translateX(30%);
+  animation: 3s five alternate infinite linear;
+  z-index: 3;
+}
+@keyframes five {
+  0% {
+    top: 0;
+    left: -46%;
+  }
+  0% {
+    top: 0;
+    left: -100%;
+  }
+}
+
+.meet .right .pic_two {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  animation: 3s six alternate infinite linear;
+}
+
+@keyframes six {
+  0% {
+    top: 5px;
+    left: 0;
+  }
+  0% {
+    top: 5px;
+    left: -90%;
+    z-index: 2;
+  }
+}
+
+.meet .right .pic_three {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  animation: 3s saven alternate infinite linear;
+}
+
+@keyframes saven {
+  0% {
+    top: 5px;
+    left: 160px;
+  }
+  0% {
+    top: 5px;
+    left: -90%;
+    z-index: 1;
+  }
+}
+
+/* ======================================
+        meet Part End
+=========================================*/
+
+/* ======================================
+        testomonia Part Start
+=========================================*/
+.testomonia {
+  margin-bottom: 100px;
+}
+.testomonia .tittle h3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+  margin-bottom: 64px;
+}
+
+.testomonia .box {
+  justify-content: space-between;
+}
+
+.testomonia .left {
+  width: 48%;
+}
+.testomonia .left .icon {
+  font-size: 50px;
+  color: #d6a033;
+  transition: 0.5s;
+  text-align: left;
+}
+.testomonia .left .icon:hover {
+  color: #524d43;
+}
+.testomonia .left .icon_two {
+  font-size: 50px;
+  color: #d6a033;
+  transition: 0.5s;
+  text-align: right;
+}
+.testomonia .left .icon_two:hover {
+  color: #524d43;
+}
+.testomonia .left p {
+  font-family: "Paprika", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #524d43;
+  line-height: 40px;
+  width: 534px;
+  margin-top: 32px;
+}
+.testomonia .left .item {
+  display: flex;
+}
+.testomonia .left .item .one {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testomonia .left .item .one img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.testomonia .left .item .two {
+  width: 75%;
+  margin-top: 20px;
+}
+.testomonia .left .item .two h5 {
+  font-family: "Paprika", cursive;
+  font-weight: 800;
+  font-size: 24px;
+  color: #363024;
+}
+.testomonia .left .item .two p {
+  font-family: "Paprika", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: #524d43;
+  margin: 0;
+}
+.testomonia .left .item .two i {
+  color: #d6a033;
+}
+
+.testomonia .right {
+  width: 48%;
+  background: rgb(230, 77, 11);
+  height: 200px;
+}
+
+/* ======================================
+        testomonia Part End
+=========================================*/
+
+/* ======================================
+        Blog Part Start
+=========================================*/
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog .tittle h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #363024;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.blog .box {
+  justify-content: space-between;
+}
+
+.blog .item {
+  width: 32%;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.blog .item:hover {
+  border: 1px solid #d6a033;
+}
+
+.blog .item img {
+  width: 100%;
+  display: block;
+}
+.blog .item .item-part {
+  display: flex;
+  margin-top: 24px;
+}
+.blog .item .item-part .one {
+  width: 30%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.blog .item .item-part .one h5 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #d6a033;
+}
+.blog .item .item-part .one h3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #363024;
+  margin: 7px 0px;
+}
+.blog .item .item-part .one p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #524d43;
+}
+
+.blog .item .item-part .two {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.blog .item .item-part .two h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #363024;
+  width: 217px;
+}
+.blog .item .item-part .two p {
+  font-family: "Paprika", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: #524d43;
+  border-bottom: 1px solid #363024;
+  width: 205px;
+  margin-top: 16px;
+  padding-bottom: 13px;
+  box-sizing: border-box;
+  margin-bottom: 28px;
+}
+
+.blog .item .item-part .two a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #d6a033;
+}
+.blog .item .item-part .two a {
+  position: relative;
+}
+
+.blog .item .item-part .two i {
+  position: absolute;
+  top: 50%;
+  right: -100%;
+  transform: translateY(-50%);
+}
+
+/* ======================================
+        Blog Part End
+=========================================*/
+
+/* ======================================
+        footer Part Start
+=========================================*/
+.footer {
+  background: #181d21;
+  padding: 140px 0px 57px 0px;
+}
+.footer .box {
+  justify-content: space-between;
+}
+
+.footer .one {
+  width: 40%;
+}
+.footer .one p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fefefe;
+  width: 449px;
+  line-height: 28px;
+  margin-top: 44px;
+}
+
+.footer .two {
+  width: 20%;
+  padding-left: 15px;
+}
+.footer .two h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fefefe;
+}
+.footer .two ul {
+  margin-top: 48px;
+}
+.footer .two ul li {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fefefe;
+  margin-top: 16px;
+  transition: 0.5s;
+}
+.footer .two ul li:hover {
+  color: #d6a033;
+}
+
+.footer .footer_down {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.footer .footer_down .one {
+  width: 60%;
+}
+.footer .footer_down .one h6 {
+  width: 60%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.footer .footer_down .two {
+  width: 20%;
+  text-align: center;
+}
+.footer .footer_down .two h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fefefe;
+}
+.footer .footer_down .three {
+  width: 20%;
+}
+.footer .footer_down .three h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fefefe;
+}
+/* ======================================
+        footer Part End
+=========================================*/
